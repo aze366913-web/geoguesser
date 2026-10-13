@@ -20,7 +20,7 @@ type Props = {
   roundKey: number;
 };
 
-const TILES = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+const TILES = 'https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=cb1_4jlq_1_8b216c29a4f39e50059d18e3';
 
 function dotIcon(kind: 'guess' | 'target', label: string) {
   return L.divIcon({
