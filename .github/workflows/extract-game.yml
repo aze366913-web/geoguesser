@@ -5,6 +5,7 @@ on:
     paths:
       - "build-polished-geoguesser-game.zip"
       - ".github/workflows/extract-game.yml"
+      - "README.md"
 permissions:
   contents: write
 jobs:
